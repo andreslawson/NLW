@@ -27,9 +27,11 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	/*text-decoration: none; caso tenha decoracao */
+	/*text-decoration: none; remove decoration and underlines*/
 	transition: background 0.2s;
 	margin-top: 3.2rem;
+	/* remove button border */
+	outline-style: none;
 }
 
 #search-teachers button:hover {
@@ -106,7 +108,7 @@
 	display: block;
 }
 
-.teacher-item footer button {
+.teacher-item footer .button {
 	width: 20rem;
 	height: 5.6rem;
 	background: var(--color-secondary);
@@ -123,7 +125,7 @@
 	margin-left: 1.6rem;
 }
 
-.teacher-item footer button:hover {
+.teacher-item footer .button:hover {
 	background: var(--color-secondary-dark);
 }
 /* More that 700px */
