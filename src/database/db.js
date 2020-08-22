@@ -1,4 +1,6 @@
 const Database = require('sqlite-async')
+
+//Open database then execute function
 //Database.open(__dirname + '/database.sqlite').then(execute)
 
 function execute(db) {

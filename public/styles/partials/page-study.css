@@ -117,10 +117,13 @@
 	border-radius: 0.8rem;
 	cursor: pointer;
 	font: 700 1.4rem Archivo;
+
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
+
 	text-decoration: none;
+
 	transition: background 0.2s;
 	margin-left: 1.6rem;
 }
@@ -128,6 +131,13 @@
 .teacher-item footer .button:hover {
 	background: var(--color-secondary-dark);
 }
+
+#page-study main .no-results {
+	max-width: 30rem;
+	margin: 12rem auto;
+	text-align: center;
+}
+
 /* More that 700px */
 @media (min-width: 700px) {
 	#page-study #container {
